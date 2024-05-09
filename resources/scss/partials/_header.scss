@@ -1,0 +1,41 @@
+.header{
+    height: 60px;
+    top: 0;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background-color: $headerBack;
+    .container{
+      margin-bottom: 50px;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .nav-text{
+        width: 40%;
+        .flex-ul-txt{
+          width: 40%;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .logo{
+        @include centerFlex();
+        img{
+        width: 20%;
+      }
+
+      }
+      .nav-icon{
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+        .flex-ul{
+          width: 20%;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+
+  }

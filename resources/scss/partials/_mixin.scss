@@ -1,0 +1,11 @@
+@mixin centerFlex($type: 'both' ){  // di defaul è both
+    display: flex;
+    @if $type == 'vertical'{
+      align-items: center;
+    } @else if $type == 'horizontal'{
+      justify-content: center;
+    }@else if $type == 'both'{
+      align-items: center;
+      justify-content: center;
+    }
+  }
