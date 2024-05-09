@@ -1,0 +1,50 @@
+.cards{
+    margin-top: 120px;
+    margin-bottom: 35px;
+    width: 32%;
+    .card{
+        position: relative;
+        .cardb{
+            display: none;
+            position: absolute;
+            top: 0;
+        }
+        &:hover .cardb{
+          display: block;
+        }
+      #heart{
+        padding: 20px;
+        background-color: $primary;
+        right: 0;
+        top: 20px;
+        position: absolute;
+      }
+      .labels{
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+        .discount{
+          font-size: 0.9rem;
+         width: 4%;
+         color: $primary;
+         padding: 1px 4px;
+          background-color: $priceDiscount;
+        }
+        .tag{
+          font-size: 0.9rem;
+          width: 8%;
+          color: $primary;
+          padding: 1px 4px;
+          background-color: $type;
+        }
+      }
+    }
+    .red{
+      color: $priceDiscount;
+    }
+    .gray-line{
+      margin-left: 5px;
+      text-decoration: line-through;
+      color: $priceOverline;
+    }
+  }

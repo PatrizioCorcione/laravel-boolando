@@ -7,18 +7,18 @@
         <nav class="nav-text">
             <ul class="flex-ul-txt">
                 @foreach ($section_header as $item)
-                    <li><a class="white" href="{{ $item['click'] }}">{{ $item['target'] }}</a></li>
+                    <li class="mx-1"><a class="white" href="{{ $item['click'] }}">{{ $item['target'] }}</a></li>
                 @endforeach
 
             </ul>
         </nav>
         <div class="logo">
-            <img src="/img/boolean-logo.png" alt="Boolando">
+            <img src="{{ Vite::asset('resources/img/boolean-logo.png') }}"alt="Boolando">
         </div>
         <nav class="nav-icon">
-            <ul class="flex-ul">
+            <ul class="flex-ul text-white ">
                 @foreach ($icons_header as $item)
-                    <li>
+                    <li class="mx-1">
                         <a href="{{ $item['click'] }}"></a>
                         <i class="{{ $item['icon'] }}"></i>
                     </li>

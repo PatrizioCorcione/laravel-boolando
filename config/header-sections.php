@@ -2,15 +2,15 @@
 
 return [
     [
-        'target' => 'Uomo',
+        'target' => 'Shop',
         'click' => '#'
     ],
     [
-        'target' => 'Donna',
+        'target' => 'Find',
         'click' => '#'
     ],
     [
-        'target' => 'Bambino',
+        'target' => 'Top',
         'click' => '#'
     ],
 ];

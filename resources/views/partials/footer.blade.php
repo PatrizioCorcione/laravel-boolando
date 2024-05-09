@@ -12,10 +12,10 @@
             <div class="find">
                 <p class="white">Trovaci anche su:</p>
                 <ul class="flex-icon">
-                    <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-square-pinterest"></i></a></li>
+                    <li class='mx-1'><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                    <li class='mx-1'><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li class='mx-1'><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li class='mx-1'><a href=""><i class="fa-brands fa-square-pinterest"></i></a></li>
                     <li><a href=""><i class="fa-brands fa-square-youtube"></i></a></li>
                 </ul>
             </div>
